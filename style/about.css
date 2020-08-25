@@ -1,0 +1,123 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    color:#1B1A1A;
+    border: 1px solid purple;
+}
+html{
+    font-size:62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Designing the header and its contents */
+header{
+    background-color: white;
+}
+header div{
+    display: flex;
+}
+
+#hd1{
+    justify-content: space-between;
+    padding-bottom: 1vh;
+    margin: 1%;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+#headNav{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+#headNav a{
+    font-size: 2rem;
+    padding-left: 5%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hd2{
+    justify-content: center;
+    background: #FF9233;
+    height: 3vh;
+    align-items: center;
+} 
+#hd2 p{
+    color:white;
+    font-size: 1.6rem;
+    text-align: center;
+}
+/* Header end */
+/* Main body design */
+body{
+    background-image: url('/Marketing-Page/images/bwBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#body{/*container that holds all items in the header*/
+    width:90%;
+    margin: 0 auto;
+}
+#us{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    margin:4% 0;
+    border-radius: 10px;
+}
+h2{
+    font-size: 6rem;
+    padding: 2%;
+}
+p{
+    font-size:2rem;
+}
+#us h2{
+    text-align: center;
+}
+#us p{
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4%;
+}
+#mission{
+    background-color:white;
+    padding: 4%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid black;
+    border-radius: 10px;
+    margin: 4% 0;
+}
+#flavor{
+    font-weight: bold;
+}
+#members{
+    background-color: white;
+    border-radius: 10px;
+}
+#members h2{
+    text-align: center;
+}
+#team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:2%;
+}
+.container{
+    width: 45%;
+}
+
+
+/* Body End */
