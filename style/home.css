@@ -1,0 +1,128 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    color:#1B1A1A;
+    /* border: 1px solid purple; */
+}
+html{
+    font-size:62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Designing the header and its contents */
+header div{
+    display: flex;
+}
+
+#hd1{
+    justify-content: space-between;
+    padding-bottom: 1vh;
+    margin: 1%;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+#headNav{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+#headNav a{
+    font-size: 2rem;
+    padding-left: 5%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hd2{
+    justify-content: center;
+    background: #FF9233;
+    height: 5vh;
+    align-items: center;
+} 
+#hd2 p{
+    color:white;
+    font-size: 1.6rem;
+    text-align: center;
+}
+/* Header end */
+
+/* Main Body design */
+#main div{
+    height:45vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+.bgImg{
+    background-image: url('/Marketing-Page/images/bwBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+    background-color: grey;
+}
+#main div h2{
+    font-size: 6rem;
+    margin: 4% 0;
+    font-weight: bold;
+}
+#main div p{
+    width:50%;
+    font-size:2.4rem;
+    padding-bottom: 6%;
+}
+/* Main body end */
+
+/* Footer design */
+footer{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+footer button{
+    border-radius: 5px;
+    height:70%;
+    width:20%;
+    margin: 0 1%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#ib{
+    background: white;
+    border: 1px solid #1B1A1A;
+    color:#1B1A1A;
+}
+#cb{
+    background: #FF9233;
+    color:#1B1A1A;
+    border: 1px solid #FF9233;
+
+}
+/* Footer end */
+
+
+/* Responsive Design for tablets */
+
+
+
+
+
+
+/* RD for Tablets end */
+
+
+/* RD - Mobile */
+
+
+
+
+
+
+
+
+/* Mobile end */
