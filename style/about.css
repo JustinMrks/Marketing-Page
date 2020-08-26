@@ -4,17 +4,17 @@
     padding:0;
     max-width:100%;
     color:#1B1A1A;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 html{
     font-size:62.5%;
     font-family: 'Raleway', sans-serif;
 }
 
-
 /* Designing the header and its contents */
 header{
     background-color: white;
+    padding-top:.5%;
 }
 header div{
     display: flex;
@@ -56,7 +56,7 @@ h1{
 /* Header end */
 /* Main body design */
 body{
-    background-image: url('/Marketing-Page/images/bwBackground.jpg');
+    background-image: url('/images/bwBackground.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ body{
 }
 h2{
     font-size: 6rem;
-    padding: 2%;
+    padding: 2% 0;
 }
 p{
     font-size:2rem;
@@ -95,9 +95,13 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     border:1px solid black;
     border-radius: 10px;
     margin: 4% 0;
+}
+#mission p{
+    text-align: center;
 }
 #flavor{
     font-weight: bold;
@@ -105,6 +109,7 @@ p{
 #members{
     background-color: white;
     border-radius: 10px;
+    margin: 4% 0;
 }
 #members h2{
     text-align: center;
@@ -117,7 +122,81 @@ p{
 }
 .container{
     width: 45%;
+    margin-bottom: 2%;
+    /* border:1px solid black; */
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.container img{
+    width:100%;
+    height:width;
+}
+/* Body End */
+
+/* Footer */
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    padding: 1%;
+    width:20%;
+    margin: 2%;
+    background: #FF9233;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+/* Footer End */
+
+/* Responsive Design for tablets */
+@media (max-width:800px){
+    #headNav a{
+        font-size: 3rem;
+        padding-left: 5%;
+        margin-top: 1.5%;
+        text-decoration: none;
+        font-weight: bold;
+    } 
 }
 
 
-/* Body End */
+
+
+
+/* RD for Tablets end */
+
+/* RD - Mobile */
+@media (max-width:500px){
+    #headNav{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    #us p{
+        width:100%;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    .container{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+/* Mobile end */

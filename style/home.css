@@ -12,6 +12,10 @@ html{
 }
 
 /* Designing the header and its contents */
+header{
+    background-color: white;
+    padding-top:.5%;
+}
 header div{
     display: flex;
 }
@@ -60,7 +64,7 @@ h1{
     padding: 2%;
 }
 .bgImg{
-    background-image: url('/Marketing-Page/images/bwBackground.jpg');
+    background-image: url('/images/bwBackground.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: screen;
@@ -84,13 +88,15 @@ footer{
     display: flex;
     align-items: center;
 }
-footer button{
+footer a{
     border-radius: 5px;
-    height:70%;
     width:20%;
     margin: 0 1%;
     font-size: 1.8rem;
     font-weight: bold;
+    text-align: center;
+    padding: 1% 10px;
+    text-decoration: none;
 }
 #ib{
     background: white;
@@ -105,24 +111,48 @@ footer button{
 }
 /* Footer end */
 
-
 /* Responsive Design for tablets */
-
-
-
-
-
-
+@media (max-width:800px){
+    #headNav a{
+        font-size: 3rem;
+        padding-left: 5%;
+        margin-top: 1.5%;
+        text-decoration: none;
+        font-weight: bold;
+    } 
+}
 /* RD for Tablets end */
 
-
 /* RD - Mobile */
-
-
-
-
-
-
-
-
+@media (max-width:500px){
+    #main div h2{
+        font-size: 4rem;
+        margin: 4% 0;
+        font-weight: bold;
+    }
+    #main div p{
+        width:100%;
+        font-size:2.4rem;
+        padding-bottom: 6%;
+    }
+    footer{
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    footer a{
+        height:70%;
+        font-size: 1.4rem;
+        width: 45%;
+        padding: 7px;
+    }
+    #headNav{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
 /* Mobile end */
